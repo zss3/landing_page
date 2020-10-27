@@ -1,0 +1,64 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1.2em;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#time{
+    font-size: 4em;
+    letter-spacing: 0rem;
+}
+
+h1{
+    margin-bottom: 8rem;  
+}
+
+h2{
+    font-size: 1em;
+    opacity: 0.8;  
+}
+
+
+
+
+/* devices above 700px */
+@media (min-width: 700px) {
+    body{
+        font-size: 1.4em;
+    }    
+    
+    #time{
+        font-size: 6em;
+        letter-spacing: -.5rem;
+    }
+
+    h1{
+        margin-bottom: 7rem;  
+    }
+
+    h2{
+        font-size: 1em;
+        opacity: 0.8;  
+    }
+}
+
+
+/* Devices above 1050px */
+@media (min-width: 1050px){
+    body{
+        font-size: 1.6em;
+    }
+}
